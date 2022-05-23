@@ -351,7 +351,22 @@ main{
 			padding: 20px;
 			justify-content: space-between;
 			border-bottom: 2px solid #ddd;
+            position: relative;
 		}
+        .arrow1{
+            position: absolute;           
+            left: -43px;
+            top: 184px;
+        }
+        
+        .arrow2{
+            position: absolute;
+            right: -97px;
+            top: 184px;
+            z-index: 1;
+        }
+            
+        
 		header p span{
 			font-size: 40px;
 		    margin: 0 5px;
